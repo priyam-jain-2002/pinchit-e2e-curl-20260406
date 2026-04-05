@@ -1,0 +1,10 @@
+{
+  "name": "pinchit-e2e-curl-20260406",
+  "version": "1.0.0",
+  "description": "Minimal Node.js bootstrap app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT"
+}
