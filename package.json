@@ -1,0 +1,28 @@
+{
+  "name": "pinchit-e2e-curl-20260406",
+  "version": "1.0.0",
+  "description": "Minimal Node.js bootstrap app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --forceExit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js",
+      "**/__tests__/**/*.test.js"
+    ],
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "*.js",
+      "scripts/**/*.js"
+    ]
+  },
+  "license": "MIT"
+}
